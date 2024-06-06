@@ -32,6 +32,7 @@ def pesquisa_binaria(lista_ordenada, item_desejado):
 
     return None
 
+
 def main():
     # Testando um tiquim:
     lista_ordenada = list(range(1, 11))
@@ -42,6 +43,7 @@ def main():
     print(pesquisa_binaria(lista_ordenada, 10))
     print(pesquisa_binaria(lista_ordenada, 11))
     print(pesquisa_binaria(lista_ordenada, -1))
+
 
 if __name__ == "__main__":
     main()
